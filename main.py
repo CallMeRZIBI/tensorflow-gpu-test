@@ -26,7 +26,7 @@ model.compile(optimizer='adam',
 loss=loss_fn,
 metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=43)
+model.fit(x_train, y_train, epochs=5)
 
 model.evaluate(x_test, y_test, verbose=5)
 
